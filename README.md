@@ -16,4 +16,4 @@ Have fun! [https://lucadenhez.github.io/lofi/](https://lucadenhez.github.io/lofi
 
 ## Disclaimer
 
-The music may **not** autoplay due to browser autoplay restrictions. If so, please just press the play button.
+The music may **not** autoplay due to browser autoplay restrictions. If so, please just **press the play button. :)**
