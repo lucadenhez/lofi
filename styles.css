@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,900;1,100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  /*To hide the edges and whitespace*/
+}
+#bg {
+  background-image: url("backgrounds/bucket.gif");
+  filter: blur(4px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: scale(1.2);
+}
+
+button {
+  display: block;
+  margin: 15px;
+  top: 50%;
+  left: 50%;
+}
+
+#buttonWrap {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+#play {
+  height: 50px;
+  width: 200px;
+  border: none;
+  border-radius: 30px;
+  transition: ease-in-out;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  outline: 0 none;
+  cursor: pointer;
+}
+
+#play:hover {
+  border: solid 2px black;
+}
+
+#backward {
+  height: 50px;
+  width: 200px;
+  border: none;
+  border-radius: 30px;
+  transition: ease-in-out;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  outline: 0 none;
+  cursor: pointer;
+}
+
+#backward:hover {
+  border: solid 2px black;
+}
+
+#next {
+  height: 50px;
+  width: 200px;
+  border: none;
+  border-radius: 30px;
+  transition: ease-in-out;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  outline: 0 none;
+  cursor: pointer;
+}
+
+#next:hover {
+  border: solid 2px black;
+}
