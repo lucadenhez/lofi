@@ -17,7 +17,8 @@
                 var songsAmount = 20;
                 
                 music.src = "music/" + Math.floor(Math.random() * songsAmount).toString() + ".mp3";
-                console.log("Now playing: " + music.src)
+                music.play();
+                console.log("Now playing: " + music.src);
             </script>
             <source type="audio/mpeg" src="music/0.mp3">
         </audio>
