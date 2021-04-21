@@ -12,4 +12,4 @@ Having trouble accessing the _bootiful_ music? Feel free to shoot me up on **Dis
 
 ## Discord - lucaa#0001
 
-Have fun! [https://lucadenhez.github.io/lofi/}(https://lucadenhez.github.io/lofi/)
+Have fun! [https://lucadenhez.github.io/lofi/](https://lucadenhez.github.io/lofi/)
