@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Luca's LoFi</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="bg">
+            <button id="play" onclick="startMusic();">Play</button>
+        </div>
+        <audio controls autoplay id="music" style="display: none;">
+            <script>
+                var songsAmount = 21;
+                
+                music.src = "music/" + Math.floor(Math.random() * songsAmount).toString() + ".mp3";
+                console.log("Now playing: " + music.src)
+            </script>
+            <source type="audio/mpeg">
+        </audio>
+    </body>
+</html>
