@@ -1,91 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,900;1,100&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
+html, body, .buttonsContainer {
   height: 100%;
 }
 
-#container {
-  position: relative;
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
-  /*To hide the edges and whitespace*/
-}
-#bg {
-  background-image: url("backgrounds/bucket.gif");
-  filter: blur(4px);
-  background-position: center;
+body {
+  background-image: url('backgrounds/bucket.gif');
   background-repeat: no-repeat;
-  background-size: contain;
-  transform: scale(1.2);
+  background-size: cover;
 }
 
-button {
-  display: block;
-  margin: 15px;
-  top: 50%;
-  left: 50%;
+.buttonsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 100%;
+  row-gap: 15px;
 }
 
-#buttonWrap {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-}
-
-#play {
+#play, #backward, #next {
   height: 50px;
   width: 200px;
   border: none;
   border-radius: 30px;
-  transition: ease-in-out;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 18px;
   outline: 0 none;
   cursor: pointer;
+  text-transform: lowercase;
+  background-color: #7b9175;
+  color: #ced5cc;
+  -webkit-box-shadow: 5px 2px 19px -7px #000000; 
+  box-shadow: 5px 2px 19px -7px #000000;
 }
 
-#play:hover {
+#play:hover, #backward:hover, #next:hover {
   border: solid 2px black;
-}
-
-#backward {
-  height: 50px;
-  width: 200px;
-  border: none;
-  border-radius: 30px;
-  transition: ease-in-out;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  outline: 0 none;
-  cursor: pointer;
-}
-
-#backward:hover {
-  border: solid 2px black;
-}
-
-#next {
-  height: 50px;
-  width: 200px;
-  border: none;
-  border-radius: 30px;
-  transition: ease-in-out;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  outline: 0 none;
-  cursor: pointer;
-}
-
-#next:hover {
-  border: solid 2px black;
-}
-
-#volume {
-  
 }
